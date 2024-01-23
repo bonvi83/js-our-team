@@ -17,4 +17,4 @@ organizzare i singoli membri in card/schede
 
 
 
-## Svolgimento
+## Svolgimento:
