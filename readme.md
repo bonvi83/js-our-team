@@ -14,7 +14,3 @@ trasformare la stringa foto in una immagine effettiva
 
 **BONUS 2:**
 organizzare i singoli membri in card/schede
-
-
-
-## Svolgimento:

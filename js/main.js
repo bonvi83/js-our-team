@@ -32,13 +32,29 @@ const team = [
 ];
 
 
+
 // stampo in console le info dell'arrey
-console.log(team[0]);
-console.log(team[1]);
-console.log(team[2]);
-console.log(team[3]);
-console.log(team[4]);
-console.log(team[5]);
+
+for (let i = 0; i < team.length; i++) {
+    console.log(team[i].name, team[i].role, team[i].image);
+}
 
 
-// stampo
+
+// stampaNomi.innerHTML = slidesHtml;
+var nomeSoggetto = team.name
+
+document.querySelector (".stampa").innerHTML = team[i].name;
+
+
+
+
+
+    // // Il tuo array
+    // var mioArray = [1, 2, 3, 4, 5];
+
+    // // Seleziona l'elemento HTML con id "arrayOutput"
+    // var outputDiv = document.getElementById("arrayOutput");
+
+    // // Ottieni il primo elemento dell'array (indice 0)
+    // var primoElemento = mioArray[0];
