@@ -41,7 +41,13 @@ for (let i = 0; i < team.length; i++) {
 
 
 
-// stampaNomi.innerHTML = slidesHtml;
-var nomeSoggetto = team[0].name;
+// stampo in HTML le info del primo elemento nell'array
 
-document.querySelector (".stampa").innerHTML = nomeSoggetto;
+var nomeSoggetto = team[0].name;
+document.querySelector (".nome").innerHTML = nomeSoggetto;
+
+var cosaFa = team[0].role;
+document.querySelector (".ruolo").innerHTML = cosaFa;
+
+var foto = team[0].image;
+document.querySelector (".immagine").innerHTML = foto;
