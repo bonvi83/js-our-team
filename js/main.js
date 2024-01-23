@@ -42,9 +42,9 @@ for (let i = 0; i < team.length; i++) {
 
 
 // stampaNomi.innerHTML = slidesHtml;
-var nomeSoggetto = team.name
+var nomeSoggetto = team.name;
 
-document.querySelector (".stampa").innerHTML = team[i].name;
+document.querySelector (".stampa").innerHTML = nomeSoggetto;
 
 
 
