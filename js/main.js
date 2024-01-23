@@ -42,19 +42,6 @@ for (let i = 0; i < team.length; i++) {
 
 
 // stampaNomi.innerHTML = slidesHtml;
-var nomeSoggetto = team.name;
+var nomeSoggetto = team[0].name;
 
 document.querySelector (".stampa").innerHTML = nomeSoggetto;
-
-
-
-
-
-    // // Il tuo array
-    // var mioArray = [1, 2, 3, 4, 5];
-
-    // // Seleziona l'elemento HTML con id "arrayOutput"
-    // var outputDiv = document.getElementById("arrayOutput");
-
-    // // Ottieni il primo elemento dell'array (indice 0)
-    // var primoElemento = mioArray[0];
