@@ -32,22 +32,50 @@ const team = [
 ];
 
 
-
-// stampo in console le info dell'arrey
-
-for (let i = 0; i < team.length; i++) {
-    console.log(team[i].name, team[i].role, team[i].image);
-}
+// stampa le info dall'array alla struttura delle cards fatte con boostrap
 
 
+const cardContainer = document.getElementById('cardInfo');
 
-// stampo in HTML le info del primo elemento nell'array
+for (let infoTeam of team) {
+    const nameHTML = `
+    <div class="col">
+    <div class="card">
+        <img src="./img/${infoTeam.image}" class="card-img-top imgSize" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">${infoTeam.name}</h5>
+        <p class="card-text">${infoTeam.role}</p>
+        </div>
+    </div>
+    </div>`;
+    console.log(infoTeam.name);
+    console.log(infoTeam.role);
+    console.log(infoTeam.image);
 
-var nomeSoggetto = team[0].name;
-document.querySelector (".nome").innerHTML = nomeSoggetto;
+    cardContainer.innerHTML += nameHTML;
+};
 
-var cosaFa = team[0].role;
-document.querySelector (".ruolo").innerHTML = cosaFa;
 
-var foto = team[0].image;
-document.querySelector (".immagine").innerHTML = foto;
+
+
+
+
+
+// // stampo in console le info dell'arrey
+
+// for (let i = 0; i < team.length; i++) {
+//     console.log(team[i].name, team[i].role, team[i].image);
+// }
+
+
+
+// // stampo in HTML le info del primo elemento nell'array, dovrei stamparli tutti......
+
+// var nomeSoggetto = team[0].name;
+// document.querySelector (".nome").innerHTML = nomeSoggetto;
+
+// var cosaFa = team[0].role;
+// document.querySelector (".ruolo").innerHTML = cosaFa;
+
+// var foto = team[0].image;
+// document.querySelector (".immagine").innerHTML = foto;

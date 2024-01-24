@@ -16,22 +16,39 @@
     /> -->
 
     <!-- link Bootstrap -->
-    <!-- <link
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
-    /> -->
+    />
 
     <!-- link my CSS -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
+  <!-- la formattazione del salvataggio in automatico è veramente ORRENDA!!! -->
   <body>
-    <div class="nome"></div>
-    <div class="ruolo"></div>
-    <div class="immagine"></div>
-    <!-- link a javascript -->
+    <div
+      class="main text-center d-flex justify-content-center align-items-center"
+    >
+      <div class="containerMain d-flex flex-wrap justify-content-center">
+        <h1 class="fw-bold mt-5">Our Team</h1>
+        <p class="my-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+          quasi, quibusdam maxime maiores vitae fugit pariatur minus quas
+          temporibus. A qui quisquam consectetur inventore aut amet doloremque
+          reprehenderit, necessitatibus harum.
+        </p>
+
+        <div
+          class="containerCard text-center d-flex gap-5 justify-content-center align-items-center mb-5"
+        >
+          <div class="row row-cols-1 row-cols-md-3 g-4" id="cardInfo"></div>
+        </div>
+      </div>
+    </div>
+
     <script type="text/javascript" src="./js/main.js"></script>
   </body>
 </html>
